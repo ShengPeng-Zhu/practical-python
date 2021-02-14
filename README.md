@@ -1,130 +1,82 @@
-# Welcome!
+# 欢迎！
 
-When I first learned Python nearly 25 years ago, I was immediately
-struck by how I could productively apply it to all sorts of messy work
-projects. Fast-forward a decade and I found myself teaching others the
-same fun.  The result of that teaching is this course--A no-nonsense
-treatment of Python that has been actively taught to more than 400
-in-person groups since 2007.  Traders, systems admins, astronomers,
-tinkerers, and even a few hundred rocket scientists who used Python to
-help land a rover on Mars--they've all taken this course. Now, I'm
-pleased to make it available under a Creative Commons license. Enjoy!
+当我在大约25年前第一次学习Python时，我立即被它能高效的应用于各种复杂的工作项目所震惊。快进到十年之后，我发现自己把同样的乐趣教给了他人。这种教学的结果就是这门课程——自2007年以来，Python已经被积极地教授给超过400个面对面的小组。商人、系统管理员、天文学家、小发明者，甚至数百名使用Python帮助探测器登陆火星的火箭科学家——他们都上过这门课。现在，我很高兴在知识共享许可下提供它。享受吧!
 
 [GitHub Pages](https://dabeaz-course.github.io/practical-python) | [GitHub Repo](https://github.com/dabeaz-course/practical-python).
 
---David Beazley ([https://dabeaz.com](https://dabeaz.com)), [@dabeaz](https://twitter.com/dabeaz)
+--  David Beazley ([https://dabeaz.com](https://dabeaz.com)), [@dabeaz](https://twitter.com/dabeaz)
 
-## What is This?
+## 这是什么？
 
-The material you see here is the heart of an instructor-led Python
-training course used for corporate training and professional
-development. It has been in continual development since 2007 and
-battle tested in real-world classrooms.  Usually, it's taught
-in-person over the span of three or four days--requiring approximately
-25-35 hours of intense work. This includes the completion of
-approximately 130 hands-on coding exercises.
+您在这里看到的这份材料是以讲师为主导的 Python 培训课程的核心内容。该课程用于企业培训和职业发展。自 2007 年以来，这门课程一直在不断地完善，并且在现实课堂中经受了实战的检验。一般来说，这门课程在3至4天内被面授给学习者——大约需要25至35个小时的高强度学习。这包括完成大约 130 道动手编程练习。
 
-## Target Audience
+## 课程受众
 
-Students of this course are usually professional scientists,
-engineers, and programmers who already have experience in at least one
-other programming language. No prior knowledge of Python is required,
-but knowledge of common programming topics is assumed.  Most
-participants find the course challenging--even if they've already been
-doing a bit of Python programming.
+这门课程的学生通常是专业的科学家、工程师和程序员，他们已经有至少一种其他编程语言的经验。学习这门课程不需要事先掌握Python知识，但需要具备通用编程相关的知识。大多数学生都觉得这门课程很有挑战性——即使他们已经学过一点Python编程。
 
-## Course Objectives
+## 课程目标
 
-The goal of this course is to cover foundational aspects of Python
-programming with an emphasis on script writing, data manipulation, and
-program organization.  By the end of this course, students should be
-able to start writing useful Python programs on their own or be able
-to understand and modify Python code written by their
-coworkers.
+本课程的目标是涵盖Python编程的基础知识，重点是脚本编写，数据操作和程序组织。在本课程结束时，学生应该能够开始自己编写有用的Python程序，或者能够理解和修改他们的同事编写的Python代码。
 
-## Requirements
+## 要求
 
-To complete this course, you need nothing more than a basic
-installation of Python 3.6 or newer and time to work on it.
+要完成这门课程，您只需要Python 3.6 及以上版本以及时间。
 
-## What This Course is Not
+## 这门课不是什么
 
-This is not a course for absolute beginners on how to program a
-computer.  It is assumed that you already have programming experience
-in some other programming language or Python itself.
+这不是一门为计算机编程初学者开设的课程。本课程假设您已经有 Python 语言或者其它语言的编程经验。
 
-This is not a course on web development.  That's a different
-circus. However, if you stick around for this circus, you'll still see
-some interesting acts--just nothing involving animals.
+这不是一门关于 web 开发的课程。那是另一个“马戏团”，然而，如果您留在这个“马戏团”，您仍会看到一些有趣的表演——只是没有动物。
 
-This is not a course for software engineers on how to write or
-maintain a one-million line Python application. I don't write programs
-like that, nor do most companies who use Python, and neither should
-you. Delete something already!
+这不是一门为软件工程师开设的关于如何编写和维护一个百万行 Python 应用程序的课程。我不写那样的程序，大多数使用 Python 的公司也不这样做，同样，您也不需要。这样的内容已经删除了。
 
-## Take me to the Course Already!
+## 课程页面
 
-Ok, ok. Point your browser [HERE](Notes/Contents.md)!
+Ok, ok. 浏览器点击 [这里](Notes/Contents.md)!
 
-## Community Discussion
+## 社区讨论
 
-Want to discuss the course?  You can join the conversation on
-[Gitter](https://gitter.im/dabeaz-course/practical-python).  I can't
-promise an individual response, but perhaps others can jump in to help.
+想讨论课程吗?您可以在[Gitter](https://gitter.im/dabeaz-course/practical-python)上加入对话。我不能保证具体的回应，但也许其他人可以帮上忙。
 
-## Acknowledgements
+## 感谢
 
-Llorenç Muntaner was instrumental in converting the course content from
-Apple Keynote to the online structure that you see here.
+Llorenç Muntaner 在将课程内容从Apple Keynote 转换成您现在看到的在线版本时发挥了重要作用。
 
-Various instructors have presented this course at one time or another
-over the last 12 years. This includes (in alphabetical order): Ned
-Batchelder, Juan Pablo Claude, Mark Fenner, Michael Foord, Matt
-Harrison, Raymond Hettinger, Daniel Klein, Travis Oliphant, James
-Powell, Michael Selik, Hugo Shi, Ian Stokes-Rees, Yarko Tymciurak,
-Bryan Van de ven, Peter Wang, and Mark Wiebe.
+在过去的12年里，不同的老师曾在不同的时间讲授过这门课程。这包括(按字母顺序排列):Ned Batchelder, Juan Pablo Claude, Mark Fenner, Michael ford, Matt Harrison, Raymond Hettinger, Daniel Klein, Travis Oliphant, James Powell, Michael Selik, Hugo Shi, Ian Stokes-Rees, Yarko Tymciurak, Bryan Van de ven, Peter Wang 和 Mark Wiebe。
 
-I'd also like to thank the thousands of students who have taken this
-course and contributed to its success with their feedback and
-discussion.
+我还要感谢成千上万的学生，他们参加了这门课程，并通过反馈和讨论为这门课程的成功做出了贡献。
 
-## Questions and Answers
+## Q & A
 
-### Q: Are there course videos I can watch?
+### 问题: 有课程视频可以看吗?
 
-No. This course is about you writing Python code, not watching someone else.
+没有。这门课是关于你写Python代码，而不是看别人写。
 
-### Q: How is this course licensed?
+### 问题: 这门课程使用什么开源许可?
 
-Practical Python Programming is licensed under a Creative Commons Attribution ShareAlike 4.0 International License.
+Practical Python Programming 是使用的是 CC-BY-SA-4.0 许可
 
-### Q: May I use this material to teach my own Python course?
+### 问题: 我可以使用这个材料来教我自己的Python课程吗?
 
-Yes, as long as appropriate attribution is given.
+可以，只要注明出处即可。
 
-### Q: May I make derivative works?
+### 问题: 我可以制作衍生作品吗?
 
-Yes, as long as such works carry the same license terms and provide attribution.
+可以，只要这些作品遵循相同的许可条款并且提供出处。
 
-### Q: Can I translate this to another language?
+### 问题: 我能把这个翻译成另一种语言吗?
 
-Yes, that would be awesome.  Send me a link when you're done.
+可以，这非常棒。完成后请给我发送一个链接。
 
-### Q: Can I live-stream the course or make a video?
+### 问题: 我可以直播课程或制作视频吗?
 
-Yes, go for it!  You'll probably learn a lot of Python doing that.
+当然，加油! 这样做你会学到很多Python知识。
 
-### Q: Why wasn't topic X covered?
+### 问题: 为什么没有包含某个内容?
 
-There is only so much material that you can cover in 3-4 days.  If
-it wasn't covered, it was probably because it was once covered and it
-caused everyone's head to explode or there was never enough time to
-cover it in the first place.   Also, this is a course, not a Python
-reference manual.
+课程只涵盖了3-4天学习时间的内容。如果有哪些内容没有，说明曾经说明过或者这是让人头疼的内容，没有足够的时间在一开始就涵盖这部分内容。另外，这只是一门课程，并不是Python参考手册。
 
-### Q: Do you accept pull requests?
+### 问题: 您接受pull请求吗?
 
-Bug reports are appreciated and may be filed through the
-[issue tracker](https://github.com/dabeaz-course/practical-python/issues).
-Pull requests are not accepted except by invitation. Please file an issue first.
+Bug报告会得到重视，可以通过[issue tracker](https://github.com/dabeaz-course/practical-python/issues)进行归档。除非通过邀请，否则不会接受Pull请求。您可以先提交issue。
 

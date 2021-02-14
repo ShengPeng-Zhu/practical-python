@@ -1,16 +1,14 @@
-[Contents](../Contents.md) \| [Previous (1.1 Python)](01_Python.md) \| [Next (1.3 Numbers)](03_Numbers.md)
+[目录](../Contents.md) \| [上一节 (1.1 Python)](01_Python.md) \| [下一节 (1.3 Numbers)](03_Numbers.md)
 
-# 1.2 A First Program
+# 1.2 第一个程序
 
-This section discusses the creation of your first program, running the
-interpreter, and some basic debugging.
+本节讨论第一个程序的创建、运行解释器和一些基本调试。
 
-### Running Python
+### 运行Python
 
-Python programs always run inside an interpreter.
+Python程序总是在解释器中运行。
 
-The interpreter is a "console-based" application that normally runs
-from a command shell.
+解释器是一个“基于控制台”的应用程序，通常从命令shell运行。
 
 ```bash
 python3
@@ -20,17 +18,14 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-Expert programmers usually have no problem using the interpreter in
-this way, but it's not so user-friendly for beginners.  You may be using
-an environment that provides a different interface to Python.  That's fine,
-but learning how to run Python terminal is still a useful skill to know.
+专业的程序员用上述方式使用解释器当然没有什么问题，但对于初学者来说，这并不是那么友好。您可能正在使用一个提供不同Python接口的环境。这很好，但是我们还是有必要学习如何运行Python终端，这将会是一个很有用的技能。
 
-### Interactive Mode
 
-When you start Python, you get an *interactive* mode where you can experiment.
+### 交互模式
 
-If you start typing statements, they will run immediately. There is no
-edit/compile/run/debug cycle.
+当你开始使用Python时，你会得到一个可以进行实验的*交互模式*。
+
+如果您开始输入语句，回车后代码会立即运行，期间没有编辑/编译/运行/调试的周期，我们可以很快得到结果。
 
 ```python
 >>> print('hello world')
@@ -48,22 +43,18 @@ hello world
 >>>
 ```
 
-This so-called *read-eval-print-loop* (or REPL) is very useful for debugging and exploration.
+这种所谓的*read-eval-print-loop*(或REPL)对于调试和探索非常有用。
 
-**STOP**: If you can't figure out how to interact with Python, stop what you're doing
-and figure out how to do it.  If you're using an IDE, it might be hidden behind a
-menu option or other window.  Many parts of this course assume that you can
-interact with the interpreter.
+**STOP**：如果你不能弄清楚如何与Python交互，停止你正在做的事情并弄清楚如何去做。如果您正在使用IDE，它可能隐藏在菜单选项或其他窗口后面。本课程的许多部分都假定你能与解释器互动。
 
-Let's take a closer look at the elements of the REPL:
+让我们仔细看看REPL的元素:
 
-- `>>>` is the interpreter prompt for starting a new statement.
-- `...` is the interpreter prompt for continuing a statement. Enter a blank line to finish typing and run what you've entered.
+- `>>>` 是启动新语句的解释器提示符。
+- `...` 是继续语句的解释器提示符。输入空行来完成输入并运行您输入的内容。
 
-The `...` prompt may or may not be shown depending on your environment. For this course,
-it is shown as blanks to make it easier to cut/paste code samples.
+​       `...`  提示符可能显示，也可能不显示，这取决于您的环境。对于本课程，它显示为空白，使它更容易剪切/粘贴代码样本。
 
-The underscore `_` holds the last result.
+- 下划线`_`保存最后的结果。
 
 ```python
 >>> 37 * 42
@@ -475,4 +466,4 @@ an identifying filename and line number.
 * Run the program successfully
 
 
-[Contents](../Contents.md) \| [Previous (1.1 Python)](01_Python.md) \| [Next (1.3 Numbers)](03_Numbers.md)
+[目录](../Contents.md) \| [上一节 (1.1 Python)](01_Python.md) \| [下一节 (1.3 Numbers)](03_Numbers.md)
